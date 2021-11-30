@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.nav {
+    flex-grow: 0.5;
+    height: 657px;
+    background-color: rgb(238, 43, 76);
+}
+
+.main {
+    flex-grow: 2;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(247, 247, 23);
+}
+
+.content {
+    display: flex;
+}
+
+.article {
+    flex-grow: 2;
+    height: 457px;
+    background-color: rgb(223, 195, 143);
+}
+
+.aside {
+    flex-grow: 1;
+    height: 457px;
+    background-color: rgb(71, 190, 179);
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(247, 247, 23);
+}
